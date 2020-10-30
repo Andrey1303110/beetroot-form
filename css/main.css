@@ -1,0 +1,29 @@
+body {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position-y: -125px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+.main_upper_text {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.description_upper_text {
+    font-size: 15px;
+}
+
+.left_panel {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: rgb(31, 31, 31);
+    color: rgb(221, 221, 221);
+    margin: 0;
+}
+
+7EE1E1 
