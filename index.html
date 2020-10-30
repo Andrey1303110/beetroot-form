@@ -10,23 +10,38 @@
 </head>
 
 <body>
-    <div>
-        <p class="main_upper_text">Contact</p>
-        <p class="description_upper_text">For new projects, ideas, business or anything<br />you'd like to discuss,
-            contact with me!</p>
-    </div>
 
-    <div class="left_panel">
+    <script src="./script/script.js">
+    </script>
 
-    </div>
+    <div class="main_block">
+        <div>
+            <p class="upper_text main">Contact</p>
+            <p class="upper_text description">For new projects, ideas, business or anything<br />you'd like to discuss,
+                contact with me!</p>
+        </div>
 
-    <div class="right_panel">
-        <p class="right_up_text">ADDRESS</p>
-        <p class="right_dw_text">123 City name, Street, City, Country</p>
-        <p class="right_up_text">EMAIL</p>
-        <p class="right_dw_text">cahee@domain</p>
-        <p class="right_up_text">PHONE</p>
-        <p class="right_dw_text">97584595</p>
+        <div class="panels">
+            <form action="send.php" method="GET" class="left_panel">
+                <input type="text" minlength="4" class="input_left" placeholder="Your name" autocomplete="name"
+                    required>
+                <input type="email" class="input_left" placeholder="Your e-mail" autocomplete="email" required>
+                <input type="tel" class="input_left" placeholder="Your phone number" autocomplete="tel" required>
+                <textarea class="text_input_left" placeholder="Your message"></textarea>
+                <button class="mail-btn" type="submit">send</button>
+            </form>
+
+            <div class="right_panel">
+                <p class="right_up_text">ADDRESS</p>
+                <p class="right_dw_text">123 City name, Street, City, Country</p>
+                <p class="right_up_text">EMAIL</p>
+                <p class="right_dw_text">cahee@domain</p>
+                <p class="right_up_text">PHONE</p>
+                <p class="right_dw_text">97584595</p>
+            </div>
+        </div>
+
+
     </div>
 
     <footer>
