@@ -48,6 +48,20 @@ body {
     border: none;
     border-color: transparent;
     outline: none;
+    transition: all .4s ease-in-out;
+}
+
+.input_left:focus {
+    background-color: #00b9b9be;
+    border-left: 3px solid blue;
+    width: 350px;
+
+}
+
+.text_input_left:focus {
+    background-color: #00b9b9be;
+    border-left: 3px solid blue;
+    width: 350px;
 }
 
 .text_input_left {
@@ -61,16 +75,13 @@ body {
     outline: none;
     height: 120px;
     resize: none;
+    transition: all .4s ease-in-out;
 }
+
 
 ::placeholder {
     color: rgba(255, 255, 255, 0.9);
     font-size: 14px;
-}
-
-.input-left:focus {
-    background-color: #00d3d3c4;
-    border-left: 2px black;
 }
 
 button {
@@ -109,6 +120,8 @@ footer {
     padding: 0px 50px;
     vertical-align: middle;
     height: 70px;
+    position: relative;
+    bottom: -70px;
 }
 
 footer p {
@@ -135,8 +148,8 @@ a {
 }
 
 .mail-btn {
-    position:relative;
-    top: 5px;
+    position: absolute;
+    top: 450px;
     display:inline-block;
     padding:0.5rem 1rem;
     border:3px solid #00d3d3c4;
@@ -151,8 +164,8 @@ a {
     text-indent:0.5rem;
     cursor:pointer;
     transition:
-      color 1.5s .5s,
-      border 3s 1s;
+      color 1s .5s,
+      border .8s .8s;
     
   }
   .mail-btn:before,
