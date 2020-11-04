@@ -51,6 +51,16 @@ body {
     transition: all .4s ease-in-out;
 }
 
+.input_left:valid {
+    border: 2px rgba(0, 192, 0, 0.397);
+    border-style: outset;
+}
+
+.input_left:invalid {
+  border: 2px rgba(236, 0, 0, 0.397);
+  border-style: inset;
+}
+
 .input_left:focus {
     background-color: #00b9b9be;
     border-left: 3px solid blue;
